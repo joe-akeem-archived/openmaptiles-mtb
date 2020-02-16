@@ -1,6 +1,7 @@
 tileset:
   layers:
     - layers/skiing/skiing.yaml
+    - layers/mtb/mtb.yaml
   name: OpenMapTiles Skiing
   version: 3.8
   id: openmaptiles_skiing

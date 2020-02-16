@@ -1,0 +1,38 @@
+mtb_scale_field: &mtb_scale
+  key: mtb:scale
+  name: mtb_scale
+  type: string
+sac_scale_field: &sac_scale
+  key: sac_scale
+  name: sac_scale
+  type: string
+surface_field: &surface
+  key: surface
+  name: surface
+  type: string
+width_field: &width
+  key: width
+  name: width
+  type: string
+
+tables:
+  # etldoc: imposm3 -> osm_mtb_linestring
+  mtb_linestring:
+    type: linestring
+    fields:
+    - name: osm_id
+      type: id
+    - name: geometry
+      type: geometry
+    - key: name
+      name: name
+      type: string
+    - *mtb_scale
+    - *sac_scale
+    - *surface
+    - *width
+    mapping:
+      highway:
+      - path
+      - track
+      - footway
