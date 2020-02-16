@@ -121,7 +121,7 @@ start-tileserver:
 
 generate-devdoc:
 	mkdir -p ./build/devdoc
-	docker run --rm -v $$(pwd):/tileset openmaptiles/openmaptiles-tools generate-etlgraph layers/skiing/skiing.yaml               ./build/devdoc
+	docker run --rm -v $$(pwd):/tileset openmaptiles/openmaptiles-tools generate-etlgraph layers/mtb/mtb.yaml               ./build/devdoc
 
 list-docker-images:
 	docker images | grep openmaptiles

@@ -1,11 +1,10 @@
 tileset:
   layers:
-    - layers/skiing/skiing.yaml
     - layers/mtb/mtb.yaml
-  name: OpenMapTiles Skiing
+  name: OpenMapTiles MTB
   version: 3.8
-  id: openmaptiles_skiing
-  description: "A tileset showcasing Skiing layer in OpenMapTiles. https://openmaptiles.org"
+  id: openmaptiles_mtb
+  description: "An tileset including aan MTB layer for OpenMapTiles. https://openmaptiles.org"
   attribution: '<a href="https://www.openmaptiles.org/" target="_blank">&copy; OpenMapTiles</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
   center: [16.60163,49.18145, 10]
   bounds: [12.08477,48.54292,18.86321,51.06426]
