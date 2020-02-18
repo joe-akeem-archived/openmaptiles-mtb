@@ -15,7 +15,7 @@ layer:
   datasource:
     geometry_field: geometry
     srid: 900913
-    query: (SELECT geometry, mtb_scale, sac_scale, surface, width, name FROM layer_mtb(!bbox!, z(!scale_denominator!))) AS t
+    query: (SELECT geometry, class, mtb_scale, sac_scale, surface, width, name FROM layer_mtb(!bbox!, z(!scale_denominator!))) AS t
 schema:
   - ./layer.sql
 datasources:
