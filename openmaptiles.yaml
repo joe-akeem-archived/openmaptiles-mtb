@@ -7,7 +7,7 @@ tileset:
   description: "An tileset including aan MTB layer for OpenMapTiles. https://openmaptiles.org"
   attribution: '<a href="https://www.openmaptiles.org/" target="_blank">&copy; OpenMapTiles</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
   center: [9.2698,47.0848, 10]
-  bounds: [5.8223,45.7228,13.4407,48.4295]
+  bounds: [-11.1,35.6,51.7,71.7]
   maxzoom: 14
   minzoom: 0
   pixel_scale: 256
