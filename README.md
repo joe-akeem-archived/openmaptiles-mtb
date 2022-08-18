@@ -1,4 +1,4 @@
-## OpenMapTiles
+ ## OpenMapTiles
 
 OpenMapTiles is an extensible and open vector tile schema for a OpenStreetMap basemap. It is used to generate vector tiles for [openmaptiles.org](https://openmaptiles.org/) and [openmaptiles.com](https://openmaptiles.com/).
 
@@ -66,6 +66,12 @@ you can limit the bounding box and zoom levels of what you want to generate (`do
 
 ```
 docker-compose run generate-vectortiles
+```
+
+## Serving Tiles for gpx.studio
+
+```ssh
+docker run --rm -it -v $(pwd)/data:/data -v $(pwd):/config -v $(pwd):/styles -p 8080:80 klokantech/tileserver-gl:v2.6.0 -c /config/tileserver.json --verbose
 ```
 
 ## License
